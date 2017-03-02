@@ -1,0 +1,23 @@
+﻿header {
+		/*background: rgba(28, 36, 65, 0.93);*/
+        /*background-image: url('../img/stock-photo-colored-contact-lenses-vision-289249787.jpg');*/
+        /*background-image: url('../img/stock-photo-reading-eyeglasses-and-eye-chart-75886249_filled.jpg');
+        background-size: cover;*/
+}
+
+#imgLogo {
+    height: 60px;
+}
+
+#ubaIcon {
+    color: deepskyblue;
+    text-shadow: 5px 10px 10px #808080;
+    font-size: 3em;
+}
+
+/*#ubaTeam1 {
+    background-image: url('../img/about/d.JPG');
+    background-size: cover;
+}*/
+
+/*.intro-table-uba-second*/

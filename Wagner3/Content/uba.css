@@ -1,0 +1,12 @@
+﻿#ubaIcon {
+    color: deepskyblue;
+    /*text-shadow: 5px 10px 10px #808080;*/
+    font-size: 1.2em;
+    margin-right:20px;
+}
+
+#ubaImgSection {
+    border: 3px solid #e7e7e7;
+    box-shadow: 13px 13px 7px 1px #808080;
+    margin-top: 70px;
+}

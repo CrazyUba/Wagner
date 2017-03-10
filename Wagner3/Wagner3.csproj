@@ -210,6 +210,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\uba.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -318,6 +319,7 @@
     <Content Include="startbootstrap-landing-page-gh-pages\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="startbootstrap-landing-page-gh-pages\LICENSE" />
     <Content Include="startbootstrap-landing-page-gh-pages\README.md" />
+    <Content Include="Views\Home\Leistungen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

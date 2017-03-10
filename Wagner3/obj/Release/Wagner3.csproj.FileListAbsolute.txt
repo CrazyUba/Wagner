@@ -79,3 +79,4 @@ C:\Data\VisualStudio\wagner\Wagner3\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Data\VisualStudio\wagner\Wagner3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Data\VisualStudio\wagner\Wagner3\obj\Release\Wagner3.dll
 C:\Data\VisualStudio\wagner\Wagner3\obj\Release\Wagner3.pdb
+C:\Data\VisualStudio\wagner\Wagner3\obj\Release\Wagner3.csprojResolveAssemblyReference.cache

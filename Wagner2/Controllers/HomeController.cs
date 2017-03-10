@@ -6,11 +6,23 @@ using System.Web.Mvc;
 
 namespace Wagner2.Controllers
 {
+
+    public class person
+    {
+        public string  Name { get; set; }
+    }
+
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
-            return View();
+
+            person papa = new person();
+            papa.Name = "Paul";
+
+
+            return View(papa);
         }
 
         public ActionResult About()

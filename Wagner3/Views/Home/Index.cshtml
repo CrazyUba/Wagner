@@ -52,13 +52,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">Leistungen</a>
+                        <a href="#leistungen">Leistungen</a>
                     </li>
                     <li>
-                        <a href="#services">Über uns</a>
+                        <a href="#ueberuns">Über uns</a>
                     </li>
                     <li>
-                        <a href="#contact">Kontakt</a>
+                        <a href="#kontakt">Kontakt</a>
+                    </li>
+                    <li>
+                        <a href="#oeffnungszeiten">Öffnungszeiten</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +72,7 @@
 
 
     <!-- Header -->
-    <a name="about"></a>
+    <a name="home"></a>
     <div class="intro-header">
         <div class="container">
 
@@ -101,7 +104,7 @@
     <!-- /.intro-header -->
     <!-- Page Content -->
 
-    <a name="services"></a>
+    <a name="leistungen"></a>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -126,6 +129,7 @@
     </div>
     <!-- /.content-section-a -->
 
+    <a name="ueberuns"></a>
     <div class="content-section-b">
 
         <div class="container">
@@ -135,10 +139,11 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Über uns</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <p class="lead">Wagner Optik hat sich seit der Eröffnung im Jahr 2000 durch hervorragenden Service und kompetente Beratung einen Namen gemacht und dies weit über die Grenzen von Marburg hinaus.</p>
+                    @RenderPage("UeberUns.cshtml")
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="~/startbootstrap-landing-page-gh-pages/img/dog.png" alt="">
+                    <img id="ubaImgSection" class="img-responsive" src="~/img/about/a3.jpg" alt="">
                 </div>
             </div>
 
@@ -148,6 +153,7 @@
     </div>
     <!-- /.content-section-b -->
 
+    <a name="kontakt"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -156,11 +162,12 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Kontakt</h2>
+                    @*<p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>*@
+                    <p class="lead">Wagner Optik <br /> Bahnhofstrasse 24<br/> 35037 Marburg<br />Tel.: 0 64 21 / 6 57 25<br />E-Mail: <a href="mailto:wagneroptik@web.de">wagneroptik@web.de</a></p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="~/startbootstrap-landing-page-gh-pages/img/phones.png" alt="">
+                    <img id="ubaImgSectionLessMargin" class="img-responsive" src="~/img/about/c3.jpg" alt="">
                 </div>
             </div>
 
@@ -170,16 +177,44 @@
     </div>
     <!-- /.content-section-a -->
 
+    <a name="oeffnungszeiten"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                @*<div class="col-lg-5 col-sm-6">*@
+               <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Öffnungszeiten</h2>
+                    <p class="lead"><b>Montag bis Freitag:</b><br />09:30 Uhr bis 18:00 Uhr<br /><br /><b>Samstag:</b> <br />10:00 Uhr bis 14:00 Uhr</p>
+                </div>
+                @*<div class="col-lg-5 col-lg-offset-2 col-sm-6">*@
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img id="ubaImgSectionLessMargin" class="img-responsive" src="~/img/about/e3.jpg" alt="">
+                    </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+
+
+
     <a name="contact"></a>
     <div class="banner">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
+                <div class="col-lg-8">
+                    <h2>Wir sehen uns bei Wagner Optik!</h2>
                 </div>
-                <div class="col-lg-6">
+                @*<div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -191,7 +226,7 @@
                             <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                         </li>
                     </ul>
-                </div>
+                </div>*@
             </div>
 
         </div>
@@ -206,22 +241,26 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#">Nach oben</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#leistungen">Leistungen</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#ueberuns">Über uns</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#kontakt">Kontakt</a>
+                        </li>
+                        <li>
+                            <a href="#oeffnungszeiten">Öffnungszeiten</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    @*<p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>*@
+                    <p class="copyright text-muted small">Copyright &copy; All Rights Reserved</p>
                 </div>
             </div>
         </div>

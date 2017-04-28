@@ -1,4 +1,13 @@
-﻿#ubaIcon {
+﻿.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/BrettEstland.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#ubaIcon {
     color: deepskyblue;
     /*text-shadow: 5px 10px 10px #808080;*/
     font-size: 1.2em;
@@ -9,4 +18,17 @@
     border: 3px solid #e7e7e7;
     box-shadow: 13px 13px 7px 1px #808080;
     margin-top: 70px;
+}
+
+#ubaImgSectionLessMargin {
+    border: 3px solid #e7e7e7;
+    box-shadow: 13px 13px 7px 1px #808080;
+    margin-top: 30px;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/about/c3_filledGrey.jpg) no-repeat center center;
+    background-size: cover;
 }

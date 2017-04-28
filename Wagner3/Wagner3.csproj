@@ -320,6 +320,7 @@
     <Content Include="startbootstrap-landing-page-gh-pages\LICENSE" />
     <Content Include="startbootstrap-landing-page-gh-pages\README.md" />
     <Content Include="Views\Home\Leistungen.cshtml" />
+    <Content Include="Views\Home\UeberUns.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

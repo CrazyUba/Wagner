@@ -1,24 +1,116 @@
-﻿body {
+﻿/*body {
     padding-top: 50px;
     padding-bottom: 20px;
-}
+}*/
 
 /* Set padding to keep content from hitting the edges */
-.body-content {
+/*.body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
-.dl-horizontal dt {
+/*.dl-horizontal dt {
     white-space: normal;
-}
+}*/
 
 /* Set width on the form input elements since they're 100% wide by default */
-input,
+/*input,
 select,
 textarea {
     max-width: 280px;
+}*/
+
+body {
+	height: 100%;
+	background: #fff;
+    padding-top: 50px;
 }
+
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #2a2a2a;
+    font-size: 14px;
+}
+
+
+/*http://stackoverflow.com/questions/27850472/html5-video-background-keep-center-of-video-in-center
+
+.video_contain {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
+}*/
+
+.fullscreen-video {
+    width: 100%;
+//    height: 100%;
+   	top: 0;
+	bottom: 0;
+    	margin: auto;
+
+}
+
+/*
+.navbar-default {
+    //background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+@media (min-width: 768px) {.navbar {
+    border-radius: 4px;
+}
+                           }
+
+.navbar {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 0px;
+    //border: 1px solid transparent;
+}*/
+
+
+/*nav.navbar {
+	position: absolute;
+	z-index: 9500;
+	width: 100%;
+	width: 100vw;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+nav.navbar .navbar-nav li.active a:not(.btn) {
+	color: #00a8ff !important;
+}
+
+nav.navbar-fixed-top {
+	z-index: 9499;
+	top: 0;
+	padding: 25px 0;
+	opacity: 0;
+	background: white;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.05);
+}
+
+nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
+	color: #bbb;
+}*/

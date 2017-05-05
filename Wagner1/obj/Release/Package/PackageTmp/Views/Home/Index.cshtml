@@ -11,8 +11,9 @@
 
 
 
-    <title>Appi - Free Bootstrap Theme</title>
+    <title>Wagner Optik</title>
     <link rel=stylesheet href="~/templateAppi/css/main.css">
+    <link rel=stylesheet href="~/content/Site.css">
     <!--[if lte IE 8]>
     <link rel=stylesheet href="css/ie.css">
     <![endif]-->
@@ -22,14 +23,14 @@
 </head>
 
 <body>
+    @RenderPage("Navbar.cshtml")
+
     <div class="level level-hero hero-home has-hint">
 
 
         <div class="hero-overlay visible-lg"></div>
 
         <video loop id=bg-video class=fullscreen-video>
-            @*<source src="http://alvarez.is/bt/appi.webm" type="video/webm">
-            <source src="http://alvarez.is/bt/appi.mp4" type="video/mp4">*@
             <source src="~/videos/water/Cloudy-water.webm" type="video/webm">
             <source src="~/videos/water/Cloudy-water.mp4" type="video/mp4">
         </video>

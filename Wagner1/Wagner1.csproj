@@ -235,6 +235,30 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="templateAppi\about.html" />
+    <Content Include="templateAppi\css\about.css" />
+    <Content Include="templateAppi\css\grid.css" />
+    <Content Include="templateAppi\css\ie.css" />
+    <Content Include="templateAppi\css\main.css" />
+    <Content Include="templateAppi\css\modal.css" />
+    <Content Include="templateAppi\css\normalize.css" />
+    <Content Include="templateAppi\css\owl.carousel.css" />
+    <Content Include="templateAppi\img\ceo.jpg" />
+    <Content Include="templateAppi\img\frame-1.jpg" />
+    <Content Include="templateAppi\img\hero.jpg" />
+    <Content Include="templateAppi\img\slide-1.jpg" />
+    <Content Include="templateAppi\img\slide-2.jpg" />
+    <Content Include="templateAppi\img\slide-3.jpg" />
+    <Content Include="templateAppi\img\v2\iphone-bg-lg.min.png" />
+    <Content Include="templateAppi\img\v2\iphone6.min.png" />
+    <Content Include="templateAppi\index.html" />
+    <Content Include="templateAppi\js\bootstrap.min.js" />
+    <Content Include="templateAppi\js\dropdown.js" />
+    <Content Include="templateAppi\js\jquery.validate.js" />
+    <Content Include="templateAppi\js\main.js" />
+    <Content Include="templateAppi\js\vendor\modernizr.js" />
+    <Content Include="templateAppi\js\vendor\owl.carousel.min.js" />
+    <Content Include="templateAppi\js\vendor\respond.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -270,6 +294,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Thanks" />
+    <Content Include="templateAppi\css\.DS_Store" />
+    <Content Include="templateAppi\img\.DS_Store" />
+    <Content Include="templateAppi\img\v2\.DS_Store" />
+    <Content Include="templateAppi\js\.DS_Store" />
+    <Content Include="templateAppi\js\vendor\.DS_Store" />
+    <Content Include="templateAppi\Thanks" />
+    <Content Include="Views\Home\Navbar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

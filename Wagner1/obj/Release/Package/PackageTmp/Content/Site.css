@@ -114,3 +114,24 @@ nav.navbar-fixed-top {
 nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: #bbb;
 }*/
+
+.intro-header {
+    height: 500px;
+    background: url(../img/about/b.JPG) no-repeat center center;
+    background-size: cover;
+}
+
+#ubaImg {
+    border: 3px solid #e7e7e7;
+    box-shadow: 13px 13px 7px 1px #808080;
+    //margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.level {
+	border-bottom: 0px;
+}
+
+.level-img-right > .container {
+    padding-bottom: 0px;
+}

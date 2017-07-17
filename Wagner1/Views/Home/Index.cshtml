@@ -9,19 +9,25 @@
 <body>
     @RenderPage("Navbar.cshtml")
 
-    <div class="level level-hero hero-home has-hint">
+    <div class="level level-hero has-hint">
+    @*<div class="level-hero">*@
+        
 
 
         <div class="hero-overlay visible-lg"></div>
+            <video loop id=bg-video class=fullscreen-video>
+            @*<video loop id=bg-video width="100%">*@
+                <source src="~/videos/water/Cloudy-water.webm" type="video/webm">
+                <source src="~/videos/water/Cloudy-water.mp4" type="video/mp4">
+            </video>
+        <div class="container full-height" id=MyHeading>
+        @*<div class="container" style="height: 200">*@
+            @*<div class=v-align-parent>*@
+            <div>
+                @*<div class=v-center>*@
+                <div>
+                    @*Schriftzug Wagner Optik*@
 
-        <video loop id=bg-video class=fullscreen-video>
-            <source src="~/videos/water/Cloudy-water.webm" type="video/webm">
-            <source src="~/videos/water/Cloudy-water.mp4" type="video/mp4">
-        </video>
-
-        <div class="container full-height">
-            <div class=v-align-parent>
-                <div class=v-center>
                     <div class="row">
                         <div class="col-xs-10 col-sm-6">
                             <h1 class="mb-10 heading">Wagner Optik</h1>

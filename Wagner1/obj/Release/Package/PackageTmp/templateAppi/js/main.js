@@ -41,7 +41,7 @@ $(function() {
 	controlsTimer = null,
 	eventLastX = 0,
 	eventLastY = 0,
-	desktopView =  Modernizr.mq( "screen and ( min-width: 1200px )" ),
+	desktopView = Modernizr.mq("screen and ( min-width: 1px )"),    /*1200*/
 	canPlaceholder = Modernizr.input.placeholder;
 	baseUrl = window.location.hostname;
 	

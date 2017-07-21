@@ -169,7 +169,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/19/2017 16:14:09</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>05/19/2017 16:34:49</publishTime>
+      <publishTime>07/21/2017 12:12:53</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2017 15:57:41</publishTime>
@@ -373,7 +373,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2017 15:57:41</publishTime>
     </File>
     <File Include="templateAppi/css/main.css">
-      <publishTime>05/19/2017 11:56:18</publishTime>
+      <publishTime>07/17/2017 17:07:21</publishTime>
     </File>
     <File Include="templateAppi/css/modal.css">
       <publishTime>02/23/2017 15:57:41</publishTime>
@@ -430,7 +430,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2017 15:57:41</publishTime>
     </File>
     <File Include="templateAppi/js/main.js">
-      <publishTime>02/23/2017 15:57:41</publishTime>
+      <publishTime>07/17/2017 10:33:59</publishTime>
     </File>
     <File Include="templateAppi/js/vendor/.DS_Store">
       <publishTime>02/23/2017 15:57:41</publishTime>
@@ -493,7 +493,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2017 15:57:41</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/19/2017 17:09:12</publishTime>
+      <publishTime>07/20/2017 17:00:37</publishTime>
     </File>
     <File Include="Views/Home/Leistungen.cshtml">
       <publishTime>05/19/2017 16:31:17</publishTime>

@@ -116,7 +116,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 }*/
 
 .intro-header {
-    height: 500px;
+    height: 25%;
     background: url(../img/about/b.JPG) no-repeat center center;
     background-size: cover;
 }
